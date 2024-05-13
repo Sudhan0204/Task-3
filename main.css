@@ -1,0 +1,561 @@
+.body-alignments {
+    margin: 2% 8%;
+    background-color: white;
+    color: #072587;
+    font-weight: bolder;
+}
+.dropdown {
+margin-left: 3%;
+}
+.dropdown a{
+    text-decoration: none;
+}
+
+.first-container {
+    background: rgb(212, 245, 219);
+    background: linear-gradient(168deg, rgba(212, 245, 219, 1) 12%, rgba(203, 244, 211, 1) 50%, rgba(206, 245, 231, 1) 89%);
+    padding: 10px;
+}
+
+.top-bar {
+    display: flex;
+    height: 150%;
+}
+
+.MeetGate-section {
+    width: 30%;
+    padding-left: 5%;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: blue;
+}
+
+.logo span {
+    color: red;
+    font-style: italic;
+}
+
+.list-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+.list-section a {
+    display: flex;
+    margin-left: 3%;
+    font-size: 10px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.list-section button {
+    margin-left: 5%;
+    width: fit-content;
+    height: fit-content;
+    -webkit-box-shadow: 1px 2px 56px -3px rgba(56, 55, 56, 1);
+    -moz-box-shadow: 1px 2px 56px -3px rgba(56, 55, 56, 1);
+    box-shadow: 1px 2px 20px -3px rgba(56, 55, 56, 1);
+}
+
+.second-container {
+    display: grid;
+    font-weight: bolder;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    padding-top: 7%;
+    background: rgb(212, 245, 219);
+    background: linear-gradient(168deg, rgba(212, 245, 219, 1) 12%, rgba(203, 244, 211, 1) 50%, rgba(206, 245, 231, 1) 89%);
+}
+
+@media(width<50%) {
+    .second-container {
+        grid-template-columns: 1fr;
+    }
+
+    .third-container {
+        grid-template-columns: 1fr;
+    }
+
+    .fourth-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.second-container-first-section {
+    padding: 5%;
+    margin-bottom: 15%;
+}
+
+.second-container-first-section h1 {
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+.second-container-first-section p {
+    font-weight: 600;
+}
+
+.second-container-second-section {
+    padding: 5%;
+    padding-bottom: 0;
+    position: relative;
+    /* display: flex; */
+    overflow: hidden;
+}
+
+
+.blue-sliding {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    width: 40%;
+    height: 100%;
+    top: 10%;
+    background-color: blue;
+    transform-origin: bottom left;
+    transform: rotate(15deg);
+    overflow: hidden;
+    z-index: 2;
+    border-radius: 30px;
+}
+
+.green-sliding {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    width: 40%;
+    height: 100%;
+    top: 30%;
+    border-radius: 30px;
+    background-color: rgb(230, 76, 76);
+    transform-origin: bottom left;
+    transform: rotate(15deg);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.myimage {
+    /* width: 10%; */
+    z-index: 3;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    /* top: -50%; */
+}
+
+.myimage img {
+    width: 50%;
+    object-fit: contain;
+
+}
+
+.chatbox1 {
+    position: absolute;
+    background-color: aliceblue;
+    padding: 10px;
+    z-index: 4;
+    font-size: 10px;
+    bottom: 10%;
+    left: 65%;
+
+}
+
+.chatbox1 span {
+    display: flex;
+    margin-top: 5px;
+}
+
+.span1 {
+    background-color: lightblue;
+    width: fit-content;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.span2 {
+    background-color: lightgreen;
+    width: fit-content;
+    padding: 0 10px;
+    right: 0;
+    border-radius: 10px;
+}
+
+.third-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    margin-top: 7%;
+}
+
+.third-container-second-section h2 {
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.third-container-second-section h4 {
+    font-weight: 900;
+    font-size: larger;
+}
+
+.third-container-second-section p {
+    font-weight: 500;
+}
+
+.third-container-first-section {
+    padding: 5%;
+}
+
+.third-container-second-section {
+    padding: 5%;
+}
+
+.center-heading {
+    display: flex;
+    background: rgb(212, 245, 219);
+    background: linear-gradient(168deg, rgba(212, 245, 219, 1) 12%, rgba(203, 244, 211, 1) 50%, rgba(206, 245, 231, 1) 89%);
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.center-heading h4 {
+    padding-left: 5%;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.center-heading button {
+    margin-right: 5%;
+}
+
+.fourth-container-0 h4 {
+    margin-left: 10%;
+}
+
+.all-features {
+    height: fit-content;
+    width: fit-content;
+}
+
+.fourth-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding: 5%;
+    background: rgb(212, 245, 219);
+    background: linear-gradient(168deg, rgba(212, 245, 219, 1) 12%, rgba(203, 244, 211, 1) 50%, rgba(206, 245, 231, 1) 89%);
+}
+
+.fourth-container-first-section {
+    padding: 5%;
+    background-color: white;
+    -webkit-box-shadow: 6px 4px 30px 6px rgba(227, 223, 227, 1);
+    -moz-box-shadow: 6px 4px 30px 6px rgba(227, 223, 227, 1);
+    box-shadow: 6px 4px 30px 6px rgba(227, 223, 227, 1);
+}
+
+.fourth-container-first-section img {
+    width: 30%;
+}
+
+.fourth-container-first-section h4 {
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.fourth-container-first-section p {
+    margin-top: 2%;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.fifth-container {
+    padding: 5%;
+    margin-top: 7%;
+    background-color: white;
+    -webkit-box-shadow: 6px 4px 30px 22px rgba(227, 223, 227, 1);
+    -moz-box-shadow: 6px 4px 30px 22px rgba(227, 223, 227, 1);
+    box-shadow: 6px 4px 30px 16px rgba(227, 223, 227, 1);
+    border-radius: 15px;
+    margin-bottom: 7%;
+}
+
+.header-fifth-container {
+    text-align: center;
+    background-color: rgb(148, 232, 148);
+    padding: 10px;
+    background-color: #e0f0df;
+
+}
+
+.header-fifth-container h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.contents-fifth-container {
+    padding: 1%;
+    margin-top: 0;
+}
+
+.fifth-container-buttons {
+    padding: 10px;
+    text-align: center;
+    background-color: #cbf4d3;
+}
+
+.fifth-container-buttons button {
+    margin: 2%;
+    /* padding-left: 10%; */
+    width: 70%;
+    text-align: left;
+}
+
+.fifth-container-buttons button a {
+    text-decoration: none;
+    color: white;
+}
+
+.column2-contents {
+    /* overflow: hidden; */
+    padding: 3%;
+    padding-left: 5%;
+}
+
+.column2-contents .contents img {
+    width: 70%;
+    object-fit: cover;
+}
+
+.contents:not(#register) {
+    display: none;
+}
+
+.sixth-container {
+    text-align: center;
+    background: rgb(23, 75, 228);
+    background: linear-gradient(180deg, rgba(23, 75, 228, 1) 0%, rgba(206, 245, 231, 1) 50%);
+    padding: 5%;
+}
+
+.sixth-container h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sixth-container-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+.sixth-container-buttons button {
+    margin-left: 2%;
+    background-color: white;
+    color: black;
+    border: none;
+    font-size: larger;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 6px 4px 43px 24px rgba(227, 223, 227, 0.6);
+    -moz-box-shadow: 6px 4px 43px 24px rgba(227, 223, 227, 0.6);
+    box-shadow: 6px 4px 43px 24px rgba(227, 223, 227, 0.6);
+    background-color: whitesmoke;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.meetgate25 {
+    text-align: center;
+    background-color: rgb(252, 210, 174);
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.meetgate25 h4 {
+    font-size: 1.3rem;
+    font-weight: 650;
+}
+
+.transparent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.green {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.bi-arrow-up-right-circle-fill {
+    color: rgb(29, 198, 29);
+}
+
+.bi-x-circle-fill {
+    color: red;
+}
+
+.lecture {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+}
+
+.seventh-container {
+    padding: 5%;
+    overflow: hidden;
+}
+
+.seventh-header {
+    text-align: center;
+}
+
+.seventh-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.seventh-columns {
+    padding-top: 5%;
+    align-items: center;
+    overflow: hidden;
+}
+
+.seventh-contents {
+    padding-left: 5%;
+    padding-top: 20px;
+    margin: 10px;
+    background-color: white;
+    -webkit-box-shadow: 6px 4px 43px 24px rgba(227, 223, 227, 0.6);
+    -moz-box-shadow: 6px 4px 43px 24px rgba(227, 223, 227, 0.6);
+    box-shadow: 6px 4px 43px 24px rgba(227, 223, 227, 0.6);
+    width: 250px;
+    height: 500px;
+    overflow: hidden;
+    /* vertical-align: top; */
+
+}
+
+.img-container {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 5%;
+    border-radius: 20px;
+}
+
+.seventh-contents img {
+    width: 225px;
+    height: 225px;
+    background-color: rgb(19, 78, 130);
+}
+
+.seventh-container h4 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.seventh-container p {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.eighth-container {
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.eighth-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.why-meetgate {
+    height: 400px;
+    background-color: white;
+    width: fit-content;
+    text-align: start;
+    padding-top: 3%;
+    -webkit-box-shadow: 6px 4px 70px 16px rgba(227, 223, 227, 0.6);
+    -moz-box-shadow: 6px 4px 70px 16px rgba(227, 223, 227, 0.6);
+    box-shadow: 6px 4px 70px 16px rgba(227, 223, 227, 0.6);
+    overflow: hidden;
+
+}
+
+.why-meetgate h3 {
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+
+.why-meetgate p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.why-meetgate1 {
+    height: 400px;
+    background-color: #cbf4d3;
+    width: fit-content;
+    text-align: start;
+    padding-top: 3%;
+    overflow: hidden;
+}
+
+.why-meetgate1 h3 {
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+
+.why-meetgate1 p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.eighth-contents {
+    padding-left: 10%;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer h1{
+    font-size: 1.5rem;
+}
+
+.footer p{
+    font-size: 1rem;
+}
+
+.sections a {
+    text-decoration: none;
+    color: black;
+}
+
+.section img {
+    background: transparent;
+    background-color: aqua;
+}
